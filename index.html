@@ -30,7 +30,7 @@
         document.getElementById("submitForm").addEventListener('click', submitForm);
 
         function getData() {
-
+            console.log("Function getData has been called,Yeay it worked!!!!");
             fetch('http://mysite.itvarsity.org/api/fetch/get-data/')
                 .then(function(response) {
                     return response.text();
